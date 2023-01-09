@@ -48,4 +48,16 @@ header nav ul li a {
 }
 header nav ul li a :hover {
   color: #575757;
+}
+
+main section {
+  height: calc(100vh - 50px);
+  background-color: #fff;
+}
+main section .page-header {
+  padding-top: 50px;
+  padding-left: 9rem;
+  letter-spacing: -5px;
+  line-height: 100px;
+  font-size: 110px;
 }/*# sourceMappingURL=style.css.map */

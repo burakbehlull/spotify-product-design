@@ -68,3 +68,20 @@ header{
 		}
 	}
 }
+
+//MAİN
+
+main{
+	section {
+		height: calc(100vh - 50px);
+		background-color: $test;
+		.page-header{
+			padding-top: 50px;
+			padding-left: 9rem;
+			letter-spacing: -5px;
+			line-height: 100px;
+			
+			font-size: $headerTitleFontSize;
+		}
+	}
+}
