@@ -1,0 +1,70 @@
+$headerTitleFontSize: 110px;
+$test: #fff;
+$test1: #fff;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Roboto&display=swap');
+* {
+	font-family: Fraunces, sans-serif;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+body{
+	background-color: #fff;
+	padding-left: 10rem;
+	padding-right: 10rem;
+	padding-top: 2rem;
+
+}
+
+h1,p, a{
+::selection{
+		color: #333333;
+		background-color: #FEF79F;
+	}
+}
+
+//HEADER
+header{
+	
+	nav{
+		background-color: $test1;
+		height: 100%;
+		ul {
+			padding-right: 50px;
+			height: 100%;
+			display: flex;
+			justify-content: flex-end;
+			
+			list-style-type: none;
+
+			.page-title{
+				margin-right: auto;
+				
+			}
+
+			li{
+				
+		
+				a{
+
+					font-size: 14px;
+					color: #8F8F8F;
+					text-decoration: none;
+					display: block;
+					padding: 16px 20px;
+					
+					:hover {
+						color:#575757;
+					}
+
+				}
+			}
+		}
+	}
+}

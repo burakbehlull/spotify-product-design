@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&family=Roboto&display=swap");
+* {
+  font-family: Fraunces, sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  background-color: #fff;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 2rem;
+}
+
+h1 ::-moz-selection, p ::-moz-selection, a ::-moz-selection {
+  color: #333333;
+  background-color: #FEF79F;
+}
+
+h1 ::selection, p ::selection, a ::selection {
+  color: #333333;
+  background-color: #FEF79F;
+}
+
+header nav {
+  background-color: #fff;
+  height: 100%;
+}
+header nav ul {
+  padding-right: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+header nav ul .page-title {
+  margin-right: auto;
+}
+header nav ul li a {
+  font-size: 14px;
+  color: #8F8F8F;
+  text-decoration: none;
+  display: block;
+  padding: 16px 20px;
+}
+header nav ul li a :hover {
+  color: #575757;
+}/*# sourceMappingURL=style.css.map */
