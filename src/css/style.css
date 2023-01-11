@@ -48,6 +48,10 @@ header nav ul li a {
 }
 header nav ul li a :hover {
   color: #575757;
+  transform: translateY(-2px);
+  -webkit-transition-delay: 150ms;
+  -webkit-transition-property: all;
+  -o-transition-property: all;
 }
 
 main section {
@@ -55,9 +59,15 @@ main section {
   background-color: #fff;
 }
 main section .page-header {
-  padding-top: 50px;
+  padding-top: 140px;
   padding-left: 9rem;
   letter-spacing: -5px;
   line-height: 100px;
-  font-size: 110px;
+  font-size: 140px;
+}
+main section .heart {
+  max-width: 90px;
+  position: absolute;
+  margin: -100px 40px;
+  margin-left: 80px;
 }/*# sourceMappingURL=style.css.map */
