@@ -1,1 +1,3 @@
-# spotify-product-design
+# Spotify Product Design
+
+### HTML AND SCSS
