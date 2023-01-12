@@ -1,8 +1,6 @@
-$headerTitleFontSize: 140px;
-$test: #fff;
-$test1: #fff;
-
-
+$headerTitleFontSize: 120px;
+$test: white;
+$test1: white;
 
 @import url('https://fonts.googleapis.com/css2?family=Joan&family=Roboto&display=swap');
 * {
@@ -87,18 +85,29 @@ main{
 			line-height: 100px;
 			
 			font-size: $headerTitleFontSize;
-            
-            
-
-            
 		}
-        .heart{
-            max-width: 90px;
-            position: absolute;
-            margin: -100px 40px;
-            margin-left: 80px;
-           
-            
+
+		@mixin imgTemplate($imgSize, $imgPos, $mt, $mb, $mr, $ml) {
+			max-width: $imgSize;
+            position: $imgPos;
+            margin: $mt $mb $mr $ml;
+		}
+
+        .heart {
+			@include imgTemplate(80px, absolute, 445px, 0px, 0px, 92px);
         }
+		.oishee {
+			@include imgTemplate(105px, absolute, 107px, 0px, 0px, 530px);
+		}
+		.product {
+			@include imgTemplate(135px, absolute, 245px, 0px, 0px, 595px);
+		}
+		.star{
+			@include imgTemplate(135px, absolute, 162px, 0px, 0px, 110px);
+			-webkit-transition: all 700ms ease;
+			:hover{
+				-webkit-transform: rotate(180deg);
+			}
+		}
 	}
 }
