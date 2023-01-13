@@ -158,3 +158,30 @@ main{
 		}
 	}
 }
+
+
+footer{
+	width: 100%;
+	height: 100px;
+	margin-bottom: 5px;
+	.icons{
+		$iconSize: 30px;
+		display: flex;
+		justify-content: center;
+		padding-top: 33px;
+		gap: 20px;
+		.github{
+			max-width: $iconSize;
+			max-height: $iconSize;
+		}
+		.instagram{
+			max-width: $iconSize;
+			max-height: $iconSize
+		}
+		.twitter{
+			max-width: $iconSize;
+			max-height: $iconSize
+		}
+	}
+
+}

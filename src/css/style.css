@@ -129,4 +129,28 @@ main section .work-boxes p {
   font-size: medium;
   color: #777777;
   font-size: 14px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 5px;
+}
+footer .icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 33px;
+  gap: 20px;
+}
+footer .icons .github {
+  max-width: 30px;
+  max-height: 30px;
+}
+footer .icons .instagram {
+  max-width: 30px;
+  max-height: 30px;
+}
+footer .icons .twitter {
+  max-width: 30px;
+  max-height: 30px;
 }/*# sourceMappingURL=style.css.map */
