@@ -1,8 +1,5 @@
 $headerTitleFontSize: 120px;
-$test: white;
-$test1: white;
 
-@import url('https://fonts.googleapis.com/css2?family=Joan&family=Roboto&display=swap');
 * {
 	font-family: Fraunces, sans-serif;
 	font-style: normal;
@@ -17,7 +14,6 @@ body{
 	padding-left: 10rem;
 	padding-right: 10rem;
 	padding-top: 2rem;
-
 }
 
 h1,p, a{
@@ -26,13 +22,13 @@ h1,p, a{
 		background-color: #FEF79F;
 	}
 }
-
 //HEADER
 header{
-	
+
 	nav{
-		background-color: $test1;
+		background-color: #fff;
 		height: 100%;
+
 		ul {
 			padding-right: 50px;
 			height: 100%;
@@ -74,9 +70,11 @@ header{
 //MAİN
 
 main{
+	
 	section {
 		height: calc(100vh - 50px);
-		background-color: $test;
+		background-color: #fff;
+		width: 100%;
 
 		.page-header{
 			padding-top: 140px;
@@ -87,26 +85,75 @@ main{
 			font-size: $headerTitleFontSize;
 		}
 
-		@mixin imgTemplate($imgSize, $imgPos, $mt, $mb, $mr, $ml) {
+		@mixin imgModel($imgSize, $imgPos, $mr) {
 			max-width: $imgSize;
             position: $imgPos;
-            margin: $mt $mb $mr $ml;
+            margin: $mr;
 		}
 
         .heart {
-			@include imgTemplate(80px, absolute, 445px, 0px, 0px, 92px);
+			@include imgModel(80px, absolute, 445px 0px 0px 92px);
         }
 		.oishee {
-			@include imgTemplate(105px, absolute, 107px, 0px, 0px, 530px);
+			@include imgModel(105px, absolute, 107px 0px 0px 530px);
 		}
 		.product {
-			@include imgTemplate(135px, absolute, 245px, 0px, 0px, 595px);
+			@include imgModel(135px, absolute, 245px 0px 0px 595px);
 		}
-		.star{
-			@include imgTemplate(135px, absolute, 162px, 0px, 0px, 110px);
+		.star {
+			@include imgModel(135px, absolute, 162px 0px 0px 110px);
 			-webkit-transition: all 700ms ease;
 			:hover{
 				-webkit-transform: rotate(180deg);
+			}
+		}
+
+		//SECOND SECTION
+		.work-title{
+			font-family: 'General Sans', sans-serif;
+			text-align: center;
+			color: #575757;
+		}
+		.work-boxes{
+
+			display: flex;
+			padding-top: 10px;
+			gap: 95px;
+			
+			@mixin boxWorkModel($d, $mr, $br, $bgc){
+				display: $d;
+				padding: $mr;
+				border-radius: $br;
+				background-color: $bgc;
+			}
+			@mixin imgWorkModel($mw,$mh,$mt){
+				max-width: $mw;
+				max-height: $mh;
+				margin-top: $mt;
+			}
+			.work-box-one{
+				@include boxWorkModel(display, 600px 440px auto 50px, 30px, #fff7a0);
+				@include imgWorkModel(500px,550px,60px);
+			}
+			
+			.work-box-two{
+				@include boxWorkModel(display, 320px 420px auto 0px, 30px, red);
+				@include imgWorkModel(500px,270px,200px);
+			}
+
+			@mixin textWorkModel($pl, $mt,$bgc){
+				padding-left: $pl;
+				margin-top: $mt;
+				font-size: medium;
+				color: $bgc;
+			}
+			h3{
+				@include textWorkModel(7px, 12px, #43464d);
+			}
+			p{
+				
+				@include textWorkModel(7px, 12px, #777777);
+				font-size: 14px;
 			}
 		}
 	}

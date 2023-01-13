@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Joan&family=Roboto&display=swap");
 * {
   font-family: Fraunces, sans-serif;
   font-style: normal;
@@ -26,7 +25,7 @@ h1 ::selection, p ::selection, a ::selection {
 }
 
 header nav {
-  background-color: white;
+  background-color: #fff;
   height: 100%;
 }
 header nav ul {
@@ -56,7 +55,8 @@ header nav ul li a :hover {
 
 main section {
   height: calc(100vh - 50px);
-  background-color: white;
+  background-color: #fff;
+  width: 100%;
 }
 main section .page-header {
   padding-top: 140px;
@@ -88,4 +88,45 @@ main section .star {
 }
 main section .star :hover {
   -webkit-transform: rotate(180deg);
+}
+main section .work-title {
+  font-family: "General Sans", sans-serif;
+  text-align: center;
+  color: #575757;
+}
+main section .work-boxes {
+  display: flex;
+  padding-top: 10px;
+  gap: 95px;
+}
+main section .work-boxes .work-box-one {
+  display: display;
+  padding: 600px 440px auto 50px;
+  border-radius: 30px;
+  background-color: #fff7a0;
+  max-width: 500px;
+  max-height: 550px;
+  margin-top: 60px;
+}
+main section .work-boxes .work-box-two {
+  display: display;
+  padding: 320px 420px auto 0px;
+  border-radius: 30px;
+  background-color: red;
+  max-width: 500px;
+  max-height: 270px;
+  margin-top: 200px;
+}
+main section .work-boxes h3 {
+  padding-left: 7px;
+  margin-top: 12px;
+  font-size: medium;
+  color: #43464d;
+}
+main section .work-boxes p {
+  padding-left: 7px;
+  margin-top: 12px;
+  font-size: medium;
+  color: #777777;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
