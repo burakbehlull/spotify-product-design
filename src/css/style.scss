@@ -131,14 +131,30 @@ main{
 				max-height: $mh;
 				margin-top: $mt;
 			}
+			@mixin imgHoverModel{
+				box-shadow: 0 4px 10px 0px rgb(0 0 0 / 10%);
+				cursor: pointer;
+				:hover{
+					box-shadow: 7px 7px 33px rgb(0 0 0 / 15%);
+					transform: translateY(-5px);
+					-webkit-transition: all 600ms ease;
+					-o-transition-property: all;
+					
+				}
+			}
 			.work-box-one{
 				@include boxWorkModel(display, 600px 440px auto 50px, 30px, #fff7a0);
 				@include imgWorkModel(500px,550px,60px);
+
+				@include imgHoverModel();
+
 			}
 			
 			.work-box-two{
 				@include boxWorkModel(display, 320px 420px auto 0px, 30px, red);
 				@include imgWorkModel(500px,270px,200px);
+
+				@include imgHoverModel();
 			}
 
 			@mixin textWorkModel($pl, $mt,$bgc){
@@ -160,6 +176,7 @@ main{
 }
 
 
+//FOOTER
 footer{
 	width: 100%;
 	height: 100px;
@@ -170,17 +187,9 @@ footer{
 		justify-content: center;
 		padding-top: 33px;
 		gap: 20px;
-		.github{
+		.media-icon{
 			max-width: $iconSize;
 			max-height: $iconSize;
-		}
-		.instagram{
-			max-width: $iconSize;
-			max-height: $iconSize
-		}
-		.twitter{
-			max-width: $iconSize;
-			max-height: $iconSize
 		}
 	}
 

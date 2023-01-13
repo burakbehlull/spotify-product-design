@@ -107,6 +107,14 @@ main section .work-boxes .work-box-one {
   max-width: 500px;
   max-height: 550px;
   margin-top: 60px;
+  box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+main section .work-boxes .work-box-one :hover {
+  box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  -webkit-transition: all 600ms ease;
+  -o-transition-property: all;
 }
 main section .work-boxes .work-box-two {
   display: display;
@@ -116,6 +124,14 @@ main section .work-boxes .work-box-two {
   max-width: 500px;
   max-height: 270px;
   margin-top: 200px;
+  box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+main section .work-boxes .work-box-two :hover {
+  box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  -webkit-transition: all 600ms ease;
+  -o-transition-property: all;
 }
 main section .work-boxes h3 {
   padding-left: 7px;
@@ -142,15 +158,7 @@ footer .icons {
   padding-top: 33px;
   gap: 20px;
 }
-footer .icons .github {
-  max-width: 30px;
-  max-height: 30px;
-}
-footer .icons .instagram {
-  max-width: 30px;
-  max-height: 30px;
-}
-footer .icons .twitter {
+footer .icons .media-icon {
   max-width: 30px;
   max-height: 30px;
 }/*# sourceMappingURL=style.css.map */
