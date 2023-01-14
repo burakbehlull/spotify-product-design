@@ -1,0 +1,35 @@
+@mixin imgModel($imgSize, $imgPos, $mr) {
+    max-width: $imgSize;
+    position: $imgPos;
+    margin: $mr;
+}
+
+@mixin boxWorkModel($d, $mr, $br, $bgc){
+    display: $d;
+    padding: $mr;
+    border-radius: $br;
+    background-color: $bgc;
+}
+@mixin imgWorkModel($mw,$mh,$mt){
+    max-width: $mw;
+    max-height: $mh;
+    margin-top: $mt;
+}
+@mixin imgHoverModel{
+    box-shadow: 0 4px 10px 0px rgb(0 0 0 / 10%);
+    cursor: pointer;
+    :hover{
+        box-shadow: 7px 7px 33px rgb(0 0 0 / 15%);
+        transform: translateY(-5px);
+        -webkit-transition: all 600ms ease;
+        -o-transition-property: all;
+        
+    }
+}
+
+@mixin textWorkModel($pl, $mt,$bgc){
+    padding-left: $pl;
+    margin-top: $mt;
+    font-size: medium;
+    color: $bgc;
+}

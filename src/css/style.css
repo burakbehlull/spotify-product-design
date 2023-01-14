@@ -1,29 +1,3 @@
-* {
-  font-family: Fraunces, sans-serif;
-  font-style: normal;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: none;
-}
-
-body {
-  background-color: #fff;
-  padding-left: 10rem;
-  padding-right: 10rem;
-  padding-top: 2rem;
-}
-
-h1 ::-moz-selection, p ::-moz-selection, a ::-moz-selection {
-  color: #333333;
-  background-color: #FEF79F;
-}
-
-h1 ::selection, p ::selection, a ::selection {
-  color: #333333;
-  background-color: #FEF79F;
-}
-
 header nav {
   background-color: #fff;
   height: 100%;
@@ -51,6 +25,32 @@ header nav ul li a :hover {
   -webkit-transition-delay: 150ms;
   -webkit-transition-property: all;
   -o-transition-property: all;
+}
+
+* {
+  font-family: Fraunces, sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  background-color: #fff;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 2rem;
+}
+
+h1 ::-moz-selection, p ::-moz-selection, a ::-moz-selection {
+  color: #333333;
+  background-color: #FEF79F;
+}
+
+h1 ::selection, p ::selection, a ::selection {
+  color: #333333;
+  background-color: #FEF79F;
 }
 
 main section {

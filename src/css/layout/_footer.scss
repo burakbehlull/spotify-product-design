@@ -1,0 +1,17 @@
+footer{
+	width: 100%;
+	height: 100px;
+	margin-bottom: 5px;
+	.icons{
+		$iconSize: 30px;
+		display: flex;
+		justify-content: center;
+		padding-top: 33px;
+		gap: 20px;
+		.media-icon{
+			max-width: $iconSize;
+			max-height: $iconSize;
+		}
+	}
+
+}

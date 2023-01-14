@@ -1,5 +1,8 @@
 $headerTitleFontSize: 120px;
 
+@import 'Helpers/mixin.scss';
+@import 'layout/header';
+
 * {
 	font-family: Fraunces, sans-serif;
 	font-style: normal;
@@ -16,58 +19,12 @@ body{
 	padding-top: 2rem;
 }
 
-h1,p, a{
+h1, p, a{
 ::selection{
 		color: #333333;
 		background-color: #FEF79F;
 	}
 }
-//HEADER
-header{
-
-	nav{
-		background-color: #fff;
-		height: 100%;
-
-		ul {
-			padding-right: 50px;
-			height: 100%;
-			display: flex;
-			justify-content: flex-end;
-			
-			list-style-type: none;
-
-			.page-title{
-				margin-right: auto;
-				
-			}
-
-			li{
-				
-		
-				a{
-
-					font-size: 14px;
-					color: #8F8F8F;
-					text-decoration: none;
-					display: block;
-					padding: 16px 20px;
-					
-					:hover {
-						color: #575757;
-						transform: translateY(-2px);
-						-webkit-transition-delay: 150ms;
-						-webkit-transition-property: all;
-						-o-transition-property: all;
-					}
-
-				}
-			}
-		}
-	}
-}
-
-//MAİN
 
 main{
 	
@@ -83,12 +40,6 @@ main{
 			line-height: 100px;
 			
 			font-size: $headerTitleFontSize;
-		}
-
-		@mixin imgModel($imgSize, $imgPos, $mr) {
-			max-width: $imgSize;
-            position: $imgPos;
-            margin: $mr;
 		}
 
         .heart {
@@ -120,28 +71,7 @@ main{
 			padding-top: 10px;
 			gap: 95px;
 			
-			@mixin boxWorkModel($d, $mr, $br, $bgc){
-				display: $d;
-				padding: $mr;
-				border-radius: $br;
-				background-color: $bgc;
-			}
-			@mixin imgWorkModel($mw,$mh,$mt){
-				max-width: $mw;
-				max-height: $mh;
-				margin-top: $mt;
-			}
-			@mixin imgHoverModel{
-				box-shadow: 0 4px 10px 0px rgb(0 0 0 / 10%);
-				cursor: pointer;
-				:hover{
-					box-shadow: 7px 7px 33px rgb(0 0 0 / 15%);
-					transform: translateY(-5px);
-					-webkit-transition: all 600ms ease;
-					-o-transition-property: all;
-					
-				}
-			}
+
 			.work-box-one{
 				@include boxWorkModel(display, 600px 440px auto 50px, 30px, #fff7a0);
 				@include imgWorkModel(500px,550px,60px);
@@ -156,13 +86,6 @@ main{
 
 				@include imgHoverModel();
 			}
-
-			@mixin textWorkModel($pl, $mt,$bgc){
-				padding-left: $pl;
-				margin-top: $mt;
-				font-size: medium;
-				color: $bgc;
-			}
 			h3{
 				@include textWorkModel(7px, 12px, #43464d);
 			}
@@ -175,22 +98,4 @@ main{
 	}
 }
 
-
-//FOOTER
-footer{
-	width: 100%;
-	height: 100px;
-	margin-bottom: 5px;
-	.icons{
-		$iconSize: 30px;
-		display: flex;
-		justify-content: center;
-		padding-top: 33px;
-		gap: 20px;
-		.media-icon{
-			max-width: $iconSize;
-			max-height: $iconSize;
-		}
-	}
-
-}
+@import 'layout/footer';
