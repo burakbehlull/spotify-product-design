@@ -1,20 +1,22 @@
+
+   
 .love-title{
     padding-top: 70px;
     font-size: 110px;
     text-align: center;   
 }
-
 .blue-heart{
     @include imgModel(auto, absolute, 110px 0px 0px 340px);
 }
-
+    
 .selected{
     @include imgModel(130px, absolute, 130px 0px 0px 620px);
 }
-
+    
 .orange-star{
     @include imgModel(120px, absolute, 105px 0px 0px 640px);
 }
+
 
 
 //Cards

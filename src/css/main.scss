@@ -2,6 +2,8 @@ $headerTitleFontSize: 120px;
 
 @import 'Helpers/mixin.scss';
 
+
+
 * {
 	font-family: Fraunces, sans-serif;
 	font-style: normal;
@@ -44,3 +46,5 @@ main{
 	}
 }
 @import 'layout/footer';
+
+@import 'components/mobile.scss';

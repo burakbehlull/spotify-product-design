@@ -384,4 +384,156 @@ footer .icons .media-icon:hover {
   max-height: 40px;
   box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
   transform: translate(15%);
+}
+
+@media (orientation: portrait) {
+  body {
+    background-color: transparent;
+    padding: 0rem 0rem 0rem 0rem;
+  }
+  header nav ul {
+    padding-left: 10px;
+    height: 100%;
+    justify-content: flex-start;
+  }
+  header nav ul li a {
+    font-size: 12px;
+    padding: 35px 2px 5px 28px;
+  }
+  main section .page-header {
+    padding-top: 50px;
+    padding-left: 2rem;
+    letter-spacing: -5px;
+    line-height: 55px;
+    font-size: 65px;
+  }
+  main section .heart {
+    max-width: 30px;
+    position: absolute;
+    margin: 280px 0px 0px 14px;
+  }
+  main section .oishee {
+    max-width: 40px;
+    position: absolute;
+    margin: 45px 0px 0px 230px;
+  }
+  main section .product {
+    max-width: 60px;
+    position: absolute;
+    margin: 110px 0px 0px 260px;
+  }
+  main section .star {
+    max-width: 35px;
+    position: absolute;
+    margin: 58px 0px 0px 7px;
+  }
+  main section .work-boxes {
+    padding-top: 30px;
+    padding-left: 13px;
+    gap: 10px;
+  }
+  main section .work-boxes .work-box-one {
+    display: display;
+    padding: 600px 440px auto 50px;
+    border-radius: 30px;
+    background-color: #fff7a0;
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 10px;
+  }
+  main section .work-boxes .work-box-two {
+    display: display;
+    padding: 320px 420px auto 0px;
+    border-radius: 30px;
+    background-color: red;
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 10px;
+  }
+  main section .work-boxes h3 {
+    padding-left: 7px;
+    margin-top: 8px;
+    font-size: medium;
+    color: #43464d;
+    font-size: 13px;
+  }
+  main section .work-boxes p {
+    padding-left: 7px;
+    margin-top: 8px;
+    font-size: medium;
+    color: #777777;
+    font-size: 10px;
+  }
+  main section .love-title {
+    padding-top: 70px;
+    font-size: 60px;
+  }
+  main section .blue-heart {
+    max-width: 25px;
+    position: absolute;
+    margin: 95px 0px 0px 95px;
+  }
+  main section .selected {
+    max-width: 60px;
+    position: absolute;
+    margin: 100px 0px 0px 240px;
+  }
+  main section .orange-star {
+    max-width: 23px;
+    position: absolute;
+    margin: 85px 0px 0px 253px;
+  }
+  main section .love-boxes {
+    padding-top: 15px;
+    grid-template: 150px 150px/150px 150px;
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+  }
+  main section .archive-title {
+    padding-top: 6rem;
+    padding-left: 0px;
+    text-align: center;
+    color: rgb(26, 27, 31);
+    font-size: 65px;
+    letter-spacing: -5px;
+    line-height: 60px;
+  }
+  main section .star2 {
+    max-width: 35px;
+    position: absolute;
+    margin: 105px 0px 0px 60px;
+  }
+  main section .since {
+    max-width: 80px;
+    position: absolute;
+    margin: 160px 0px 0px 290px;
+  }
+  main section .green-star {
+    max-width: 35px;
+    position: absolute;
+    margin: 180px 0px 0px 320px;
+  }
+  main section .archive-boxes {
+    padding-top: 50px;
+    grid-template: 150px 150px/170px 170px;
+    grid-column-gap: 7px;
+    grid-row-gap: 10px;
+  }
+  main section .about-body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  main section .about-body .about-title {
+    text-align: center;
+    font-size: 70px;
+    color: #1a1b1f;
+    letter-spacing: -8px;
+    line-height: 60px;
+  }
+  main section .about-body .about-title .love-text {
+    color: #e76295;
+  }
+  main section .about-body .about-title .about-text {
+    color: #13d87a;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,153 @@
+@media (orientation: portrait) {
+
+    body{
+        background-color: transparent;
+        padding: 0rem 0rem 0rem 0rem;
+    }
+    header{
+        nav{
+            ul{
+                padding-left: 10px;
+                height: 100%;
+                justify-content: flex-start;
+				li{
+					a{
+						
+						font-size: 12px;
+						padding: 35px 2px 5px 28px;
+						
+					}
+				}
+            }
+        }
+    }
+    main{
+        section{
+            // background-color: blue;
+
+			//HEADER
+			.page-header{
+				padding-top: 50px;
+				padding-left: 2rem;
+				letter-spacing: -5px;
+				line-height: 55px;
+				font-size: 65px;
+			}
+			
+			.heart {
+				@include imgModel(30px, absolute, 280px 0px 0px 14px);
+			}
+			.oishee {
+				@include imgModel(40px, absolute, 45px 0px 0px 230px);
+			}
+			.product {
+				@include imgModel(60px, absolute, 110px 0px 0px 260px);
+			}
+			.star {
+				@include imgModel(35px, absolute, 58px 0px 0px 7px);
+			}
+
+			//WORK
+			.work-boxes{
+
+				padding-top: 30px;
+				padding-left: 13px;
+				gap: 10px;
+				
+			
+				.work-box-one{
+					@include boxWorkModel(display, 600px 440px auto 50px, 30px, #fff7a0);
+					@include imgWorkModel(150px,150px,10px);
+				}
+				.work-box-two{
+					@include boxWorkModel(display, 320px 420px auto 0px, 30px, red);
+					@include imgWorkModel(150px,150px,10px);
+				}
+				h3{
+					@include textWorkModel(7px, 8px, #43464d);
+					font-size: 13px;
+				}
+				p{
+					@include textWorkModel(7px, 8px, #777777);
+					font-size: 10px;
+				}
+			
+			}
+
+			//LOVE
+			.love-title{
+				padding-top: 70px;
+				font-size: 60px;
+			}
+			.blue-heart{
+				@include imgModel(25px, absolute, 95px 0px 0px 95px);
+			}
+				
+			.selected{
+				@include imgModel(60px, absolute, 100px 0px 0px 240px);
+			}
+				
+			.orange-star{
+				@include imgModel(23px, absolute, 85px 0px 0px 253px);
+			}
+			.love-boxes{
+				padding-top: 15px;
+				grid-template: 150px 150px / 150px 150px;
+				grid-column-gap: 15px;
+				grid-row-gap: 10px;
+			}
+			//ARCHIVE			
+			.archive-title{
+				padding-top: 6rem;
+				padding-left: 0px;
+				text-align: center;
+
+				color: rgb(26, 27,31);
+				font-size: 65px;
+				letter-spacing: -5px;
+				line-height: 60px;
+			}
+			
+			.star2{
+				@include imgModel(35px, absolute, 105px 0px 0px 60px);
+
+			}
+			
+			.since{
+				@include imgModel(80px, absolute, 160px 0px 0px 290px);
+			}
+			
+			.green-star{
+				@include imgModel(35px, absolute, 180px 0px 0px 320px);
+			
+			}
+			
+			.archive-boxes{
+				padding-top: 50px;
+				grid-template: 150px 150px / 170px 170px;
+				grid-column-gap: 7px;
+				grid-row-gap: 10px;
+			}
+			//ABOUT
+			.about-body{
+				padding-top: 3rem;
+				padding-bottom: 3rem;
+				.about-title{
+					text-align: center;
+					font-size:70px;
+					color: #1a1b1f;
+					letter-spacing: -8px;
+					line-height: 60px;
+					.love-text{
+						color:#e76295;
+					}
+					.about-text {
+						color: #13d87a;
+					}
+				}
+			}
+
+
+        }
+    }
+ }
