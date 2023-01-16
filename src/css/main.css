@@ -48,8 +48,7 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #575757;
   transform: translateY(-2px);
-  -webkit-transition-delay: 150ms;
-  -webkit-transition-property: all;
+  -webkit-transition: all 800ms ease;
   -o-transition-property: all;
 }
 
@@ -143,23 +142,24 @@ main section .work-boxes p {
   font-size: 14px;
 }
 main section .love-title {
+  padding-top: 70px;
   font-size: 110px;
   text-align: center;
 }
 main section .blue-heart {
   max-width: auto;
   position: absolute;
-  margin: 40px 0px 0px 340px;
+  margin: 110px 0px 0px 340px;
 }
 main section .selected {
   max-width: 130px;
   position: absolute;
-  margin: 60px 0px 0px 620px;
+  margin: 130px 0px 0px 620px;
 }
 main section .orange-star {
   max-width: 120px;
   position: absolute;
-  margin: 35px 0px 0px 640px;
+  margin: 105px 0px 0px 640px;
 }
 main section .love-boxes {
   display: grid;
