@@ -31,10 +31,15 @@ main{
 		height: 100%;
 		width: 100%;
 		background-color: transparent;
+
 		@import 'layout/header';
+
 		@import 'pages/work';
+
 		@import 'pages/love';
+
 		@import 'pages/archive';
+
 		@import 'pages/about';
 	}
 }
