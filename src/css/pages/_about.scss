@@ -9,18 +9,18 @@
         line-height: 105px;
         .love-text{
             color:#e76295;
+            -webkit-transition: all 900ms ease;
             &:hover {
                 color: #e93d7f;
                 font-size: 127px;
-                -webkit-transition: all 900ms ease;
             }
         }
         .about-text {
             color: #13d87a;
+            -webkit-transition: all 900ms ease;
             &:hover {
                 color: #0dbe69;
                 font-size: 127px;
-                -webkit-transition: all 900ms ease;
             }
         }
     }

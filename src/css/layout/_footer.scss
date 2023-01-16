@@ -12,13 +12,13 @@ footer{
 		.media-icon{
 			max-width: $iconSize;
 			max-height: $iconSize;
+			-webkit-transition: all 500ms ease;
+			-o-transition-property: all;
 			&:hover{
 				max-width: 40px;
 				max-height: 40px;
 				box-shadow: 7px 7px 33px rgb(0 0 0 / 15%);
 				transform: translate(15%);
-				-webkit-transition: all 500ms ease;
-				-o-transition-property: all;
 			}
 		}
 	}

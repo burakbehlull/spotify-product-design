@@ -42,12 +42,12 @@ header nav ul li a {
   text-decoration: none;
   display: block;
   padding: 16px 20px;
-}
-header nav ul li a:hover {
-  color: #575757;
-  transform: translateY(-2px);
   -webkit-transition: all 800ms ease;
   -o-transition-property: all;
+}
+header nav ul li a:hover {
+  transform: translateY(-2px);
+  color: #575757;
 }
 
 main section {
@@ -101,12 +101,12 @@ main section .work-boxes .work-box-one {
   margin-top: 60px;
   box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  -webkit-transition: all 900ms ease;
+  -o-transition-property: all;
 }
 main section .work-boxes .work-box-one:hover {
   box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
   transform: translateY(-5px);
-  -webkit-transition: all 600ms ease;
-  -o-transition-property: all;
 }
 main section .work-boxes .work-box-two {
   display: display;
@@ -118,12 +118,12 @@ main section .work-boxes .work-box-two {
   margin-top: 200px;
   box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  -webkit-transition: all 900ms ease;
+  -o-transition-property: all;
 }
 main section .work-boxes .work-box-two:hover {
   box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
   transform: translateY(-5px);
-  -webkit-transition: all 600ms ease;
-  -o-transition-property: all;
 }
 main section .work-boxes h3 {
   padding-left: 7px;
@@ -175,12 +175,12 @@ main section .love-boxes .love-box-one {
   border-radius: 15px;
   box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  -webkit-transition: all 600ms ease;
+  -o-transition-property: all;
 }
 main section .love-boxes .love-box-one:hover {
   box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
   transform: rotate(-2deg);
-  -webkit-transition: all 200ms ease;
-  -o-transition-property: all;
 }
 main section .love-boxes .love-box-two {
   background-image: url("https://digitalreport.com.tr/wp-content/uploads/2022/11/Spotify-2022-Yilin-Ozeti-yayinlandi_05.jpg");
@@ -191,12 +191,12 @@ main section .love-boxes .love-box-two {
   border-radius: 15px;
   box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  -webkit-transition: all 600ms ease;
+  -o-transition-property: all;
 }
 main section .love-boxes .love-box-two:hover {
   box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
   transform: rotate(-2deg);
-  -webkit-transition: all 200ms ease;
-  -o-transition-property: all;
 }
 main section .love-boxes .love-box-three {
   background-image: url("https://img.ulusal.com.tr/rcman/Cw510h510q95gm/storage/files/images/2022/11/30/screenshot-haberglobal-VzPw.png");
@@ -207,12 +207,12 @@ main section .love-boxes .love-box-three {
   border-radius: 15px;
   box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  -webkit-transition: all 600ms ease;
+  -o-transition-property: all;
 }
 main section .love-boxes .love-box-three:hover {
   box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
   transform: rotate(-2deg);
-  -webkit-transition: all 200ms ease;
-  -o-transition-property: all;
 }
 main section .love-boxes .love-box-four {
   background-image: url("https://img.ulusal.com.tr/rcman/Cw510h508q95gm/storage/files/images/2022/11/30/screenshot-haberglobal-NxN3.png");
@@ -223,12 +223,12 @@ main section .love-boxes .love-box-four {
   border-radius: 15px;
   box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  -webkit-transition: all 600ms ease;
+  -o-transition-property: all;
 }
 main section .love-boxes .love-box-four:hover {
   box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
   transform: rotate(-2deg);
-  -webkit-transition: all 200ms ease;
-  -o-transition-property: all;
 }
 main section .archive-title {
   padding-top: 8rem;
@@ -278,12 +278,12 @@ main section .archive-boxes .archive-box-one {
   border-radius: 15px;
   box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  -webkit-transition: all 600ms ease;
+  -o-transition-property: all;
 }
 main section .archive-boxes .archive-box-one:hover {
   box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
   transform: rotate(-2deg);
-  -webkit-transition: all 200ms ease;
-  -o-transition-property: all;
 }
 main section .archive-boxes .archive-box-two {
   background-image: url("https://majorhifi.com/wp-content/uploads/spotify-create-playlists.jpg");
@@ -294,12 +294,12 @@ main section .archive-boxes .archive-box-two {
   border-radius: 15px;
   box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  -webkit-transition: all 600ms ease;
+  -o-transition-property: all;
 }
 main section .archive-boxes .archive-box-two:hover {
   box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
   transform: rotate(-2deg);
-  -webkit-transition: all 200ms ease;
-  -o-transition-property: all;
 }
 main section .archive-boxes .archive-box-three {
   background-image: url("https://cfb.rabbitloader.xyz/rzrkhjhk/rls.t-nw-a28/wp-content/uploads/2021/09/screenshot_26.png");
@@ -310,12 +310,12 @@ main section .archive-boxes .archive-box-three {
   border-radius: 15px;
   box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  -webkit-transition: all 600ms ease;
+  -o-transition-property: all;
 }
 main section .archive-boxes .archive-box-three:hover {
   box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
   transform: rotate(-2deg);
-  -webkit-transition: all 200ms ease;
-  -o-transition-property: all;
 }
 main section .archive-boxes .archive-box-four {
   background-image: url("https://images.vice.com/noisey/content-images/contentimage/71334/Screen-Shot-2015-09-25-at-12-48-21-PM.jpg?resize=640:*");
@@ -326,12 +326,12 @@ main section .archive-boxes .archive-box-four {
   border-radius: 15px;
   box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  -webkit-transition: all 600ms ease;
+  -o-transition-property: all;
 }
 main section .archive-boxes .archive-box-four:hover {
   box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
   transform: rotate(-2deg);
-  -webkit-transition: all 200ms ease;
-  -o-transition-property: all;
 }
 main section .about-body {
   padding-top: 12rem;
@@ -346,19 +346,19 @@ main section .about-body .about-title {
 }
 main section .about-body .about-title .love-text {
   color: #e76295;
+  -webkit-transition: all 900ms ease;
 }
 main section .about-body .about-title .love-text:hover {
   color: #e93d7f;
   font-size: 127px;
-  -webkit-transition: all 900ms ease;
 }
 main section .about-body .about-title .about-text {
   color: #13d87a;
+  -webkit-transition: all 900ms ease;
 }
 main section .about-body .about-title .about-text:hover {
   color: #0dbe69;
   font-size: 127px;
-  -webkit-transition: all 900ms ease;
 }
 
 footer {
@@ -376,12 +376,12 @@ footer .icons {
 footer .icons .media-icon {
   max-width: 30px;
   max-height: 30px;
+  -webkit-transition: all 500ms ease;
+  -o-transition-property: all;
 }
 footer .icons .media-icon:hover {
   max-width: 40px;
   max-height: 40px;
   box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
   transform: translate(15%);
-  -webkit-transition: all 500ms ease;
-  -o-transition-property: all;
 }/*# sourceMappingURL=main.css.map */

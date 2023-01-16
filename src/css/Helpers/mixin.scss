@@ -18,11 +18,11 @@
 @mixin imgHoverModel{
     box-shadow: 0 4px 10px 0px rgb(0 0 0 / 10%);
     cursor: pointer;
+    -webkit-transition: all 900ms ease;
+    -o-transition-property: all;
     &:hover{
         box-shadow: 7px 7px 33px rgb(0 0 0 / 15%);
         transform: translateY(-5px);
-        -webkit-transition: all 600ms ease;
-        -o-transition-property: all;
         
     }
 }
@@ -46,11 +46,11 @@
 @mixin loveBoxHoverModel{
     box-shadow: 0 4px 10px 0px rgb(0 0 0 / 10%);
     cursor: pointer;
+    -webkit-transition: all 600ms ease;
+    -o-transition-property: all;
     &:hover{
         box-shadow: 7px 7px 33px rgb(0 0 0 / 15%);
         transform: rotate(-2deg);
-        -webkit-transition: all 200ms ease;
-        -o-transition-property: all;
         
     }
 }

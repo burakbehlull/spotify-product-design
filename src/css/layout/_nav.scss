@@ -28,11 +28,11 @@ header{
 					display: block;
 					padding: 16px 20px;
 					
+					-webkit-transition: all 800ms ease;
+					-o-transition-property: all;
 					&:hover {
-						color: #575757;
 						transform: translateY(-2px);
-						-webkit-transition: all 800ms ease;
-						-o-transition-property: all;
+						color: #575757;
 					}
 
 				}
