@@ -6,22 +6,20 @@
   box-sizing: border-box;
   border: none;
 }
+*::-moz-selection {
+  color: #333333;
+  background-color: #FEF79F;
+}
+*::selection {
+  color: #333333;
+  background-color: #FEF79F;
+}
 
 body {
-  background-color: #fff;
+  background-color: transparent;
   padding-left: 10rem;
   padding-right: 10rem;
   padding-top: 2rem;
-}
-
-h1::-moz-selection, h3::-moz-selection, p::-moz-selection, a::-moz-selection {
-  color: #333333;
-  background-color: #FEF79F;
-}
-
-h1::selection, h3::selection, p::selection, a::selection {
-  color: #333333;
-  background-color: #FEF79F;
 }
 
 header nav {
@@ -54,7 +52,7 @@ header nav ul li a:hover {
 
 main section {
   height: calc(100vh - 50px);
-  background-color: #fff;
+  background-color: transparent;
   width: 100%;
   height: 100%;
 }
@@ -228,6 +226,109 @@ main section .love-boxes .love-box-four {
   cursor: pointer;
 }
 main section .love-boxes .love-box-four:hover {
+  box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
+  transform: rotate(-2deg);
+  -webkit-transition: all 200ms ease;
+  -o-transition-property: all;
+}
+main section .archive-title {
+  padding-top: 8rem;
+  padding-left: 140px;
+  color: rgb(26, 27, 31);
+  font-size: 8rem;
+  letter-spacing: -11px;
+  line-height: 105px;
+}
+main section .star2 {
+  max-width: 135px;
+  position: absolute;
+  margin: 145px 0px 0px 110px;
+  -webkit-transition: all 300ms ease;
+}
+main section .star2:hover {
+  -webkit-transform: rotate(95deg);
+}
+main section .since {
+  max-width: auto;
+  position: absolute;
+  margin: 235px 0px 0px 500px;
+}
+main section .green-star {
+  max-width: 70px;
+  position: absolute;
+  margin: 275px 0px 0px 550px;
+  -webkit-transition: all 600ms ease;
+}
+main section .green-star:hover {
+  -webkit-transform: rotate(190deg);
+}
+main section .archive-boxes {
+  display: grid;
+  padding-top: 70px;
+  justify-content: center;
+  grid-template: 280px 280px/450px 450px;
+  grid-column-gap: 90px;
+  grid-row-gap: 50px;
+}
+main section .archive-boxes .archive-box-one {
+  background-image: url("https://www.digitalmusicnews.com/wp-content/uploads/2017/06/spotify-playlists-5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-origin: content-box;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+main section .archive-boxes .archive-box-one:hover {
+  box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
+  transform: rotate(-2deg);
+  -webkit-transition: all 200ms ease;
+  -o-transition-property: all;
+}
+main section .archive-boxes .archive-box-two {
+  background-image: url("https://majorhifi.com/wp-content/uploads/spotify-create-playlists.jpg");
+  background-position: center;
+  background-size: cover;
+  background-origin: content-box;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+main section .archive-boxes .archive-box-two:hover {
+  box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
+  transform: rotate(-2deg);
+  -webkit-transition: all 200ms ease;
+  -o-transition-property: all;
+}
+main section .archive-boxes .archive-box-three {
+  background-image: url("https://cfb.rabbitloader.xyz/rzrkhjhk/rls.t-nw-a28/wp-content/uploads/2021/09/screenshot_26.png");
+  background-position: center;
+  background-size: cover;
+  background-origin: content-box;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+main section .archive-boxes .archive-box-three:hover {
+  box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
+  transform: rotate(-2deg);
+  -webkit-transition: all 200ms ease;
+  -o-transition-property: all;
+}
+main section .archive-boxes .archive-box-four {
+  background-image: url("https://images.vice.com/noisey/content-images/contentimage/71334/Screen-Shot-2015-09-25-at-12-48-21-PM.jpg?resize=640:*");
+  background-position: center;
+  background-size: cover;
+  background-origin: content-box;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+main section .archive-boxes .archive-box-four:hover {
   box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.15);
   transform: rotate(-2deg);
   -webkit-transition: all 200ms ease;

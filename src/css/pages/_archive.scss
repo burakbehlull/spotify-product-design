@@ -1,0 +1,55 @@
+.archive-title{
+    padding-top: 8rem;
+    padding-left: 140px;
+    color: rgb(26, 27,31);
+    font-size: 8rem;
+    letter-spacing: -11px;
+    line-height: 105px;
+}
+
+.star2{
+    @include imgModel(135px, absolute, 145px 0px 0px 110px);
+    -webkit-transition: all 300ms ease;
+    &:hover{
+        -webkit-transform: rotate(95deg);
+    }
+}
+
+.since{
+    @include imgModel(auto, absolute, 235px 0px 0px 500px);
+}
+
+.green-star{
+    @include imgModel(70px, absolute, 275px 0px 0px 550px);
+    -webkit-transition: all 600ms ease;
+    &:hover{
+        -webkit-transform: rotate(190deg);
+    }
+
+}
+
+.archive-boxes{
+    display: grid;
+    padding-top: 70px;
+    justify-content: center;
+    grid-template: 280px 280px / 450px 450px;
+    grid-column-gap: 90px;
+    grid-row-gap: 50px;
+
+    .archive-box-one{
+        @include loveBoxImg('https://www.digitalmusicnews.com/wp-content/uploads/2017/06/spotify-playlists-5.jpg');
+        @include loveBoxHoverModel();
+    }
+    .archive-box-two{
+        @include loveBoxImg('https://majorhifi.com/wp-content/uploads/spotify-create-playlists.jpg');
+        @include loveBoxHoverModel();
+    }
+    .archive-box-three{
+        @include loveBoxImg('https://cfb.rabbitloader.xyz/rzrkhjhk/rls.t-nw-a28/wp-content/uploads/2021/09/screenshot_26.png');
+        @include loveBoxHoverModel();
+    }
+    .archive-box-four{
+        @include loveBoxImg('https://images.vice.com/noisey/content-images/contentimage/71334/Screen-Shot-2015-09-25-at-12-48-21-PM.jpg?resize=640:*');
+        @include loveBoxHoverModel();
+    }
+}
