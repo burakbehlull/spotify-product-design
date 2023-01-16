@@ -1,3 +1,27 @@
-.about-title{
-    font-size: 150px;
+.about-body{
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    .about-title{
+        text-align: center;
+        font-size:120px;
+        color: #1a1b1f;
+        letter-spacing: -8px;
+        line-height: 105px;
+        .love-text{
+            color:#e76295;
+            &:hover {
+                color: #e93d7f;
+                font-size: 127px;
+                -webkit-transition: all 900ms ease;
+            }
+        }
+        .about-text {
+            color: #13d87a;
+            &:hover {
+                color: #0dbe69;
+                font-size: 127px;
+                -webkit-transition: all 900ms ease;
+            }
+        }
+    }
 }
