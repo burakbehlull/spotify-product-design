@@ -18,7 +18,7 @@
 @mixin imgHoverModel{
     box-shadow: 0 4px 10px 0px rgb(0 0 0 / 10%);
     cursor: pointer;
-    :hover{
+    &:hover{
         box-shadow: 7px 7px 33px rgb(0 0 0 / 15%);
         transform: translateY(-5px);
         -webkit-transition: all 600ms ease;
@@ -32,4 +32,25 @@
     margin-top: $mt;
     font-size: medium;
     color: $bgc;
+}
+
+@mixin loveBoxImg($link){
+    background-image: url($link);
+    background-position: center;
+    background-size: cover;
+    background-origin: content-box;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+@mixin loveBoxHoverModel{
+    box-shadow: 0 4px 10px 0px rgb(0 0 0 / 10%);
+    cursor: pointer;
+    &:hover{
+        box-shadow: 7px 7px 33px rgb(0 0 0 / 15%);
+        transform: rotate(-2deg);
+        -webkit-transition: all 200ms ease;
+        -o-transition-property: all;
+        
+    }
 }

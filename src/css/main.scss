@@ -1,0 +1,48 @@
+$headerTitleFontSize: 120px;
+
+@import 'Helpers/mixin.scss';
+
+* {
+	font-family: Fraunces, sans-serif;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+body{
+	background-color: #fff;
+	padding-left: 10rem;
+	padding-right: 10rem;
+	padding-top: 2rem;
+}
+
+h1,h3, p, a{
+&::selection{
+		color: #333333;
+		background-color: #FEF79F;
+	}
+}
+
+@import 'layout/nav';
+
+main{
+	
+	section {
+		height: calc(100vh - 50px);
+		background-color: #fff;
+		width: 100%;
+		height: 100%;
+		@import 'layout/header';
+		//WORK
+		@import 'pages/work';
+		//LOVE
+		@import 'pages/love';
+
+
+
+	}
+}
+
+@import 'layout/footer';

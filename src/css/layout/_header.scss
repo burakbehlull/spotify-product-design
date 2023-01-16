@@ -1,43 +1,25 @@
-header{
+.page-header{
+    padding-top: 140px;
+    padding-left: 9rem;
+    letter-spacing: -5px;
+    line-height: 100px;
+    
+    font-size: $headerTitleFontSize;
+}
 
-	nav{
-		background-color: #fff;
-		height: 100%;
-
-		ul {
-			padding-right: 50px;
-			height: 100%;
-			display: flex;
-			justify-content: flex-end;
-			
-			list-style-type: none;
-
-			.page-title{
-				margin-right: auto;
-				
-			}
-
-			li{
-				
-		
-				a{
-
-					font-size: 14px;
-					color: #8F8F8F;
-					text-decoration: none;
-					display: block;
-					padding: 16px 20px;
-					
-					:hover {
-						color: #575757;
-						transform: translateY(-2px);
-						-webkit-transition-delay: 150ms;
-						-webkit-transition-property: all;
-						-o-transition-property: all;
-					}
-
-				}
-			}
-		}
-	}
+.heart {
+    @include imgModel(80px, absolute, 445px 0px 0px 92px);
+}
+.oishee {
+    @include imgModel(105px, absolute, 107px 0px 0px 530px);
+}
+.product {
+    @include imgModel(135px, absolute, 245px 0px 0px 595px);
+}
+.star {
+    @include imgModel(135px, absolute, 162px 0px 0px 110px);
+    -webkit-transition: all 700ms ease;
+    &:hover{
+        -webkit-transform: rotate(180deg);
+    }
 }

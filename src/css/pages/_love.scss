@@ -1,0 +1,45 @@
+.love-title{
+    font-size: 110px;
+    text-align: center;   
+}
+
+.blue-heart{
+    @include imgModel(auto, absolute, 40px 0px 0px 340px);
+}
+
+.selected{
+    @include imgModel(130px, absolute, 60px 0px 0px 620px);
+}
+
+.orange-star{
+    @include imgModel(120px, absolute, 35px 0px 0px 640px);
+}
+
+
+//Cards
+
+.love-boxes{
+    display: grid;
+    padding-top: 30px;
+    justify-content: center;
+    grid-template: 350px 350px / 350px 350px;
+    grid-column-gap: 30px;
+    grid-row-gap: 15px;
+
+    .love-box-one{
+        @include loveBoxImg('https://egirisim.com/wp-content/uploads/2022/11/spotify-2022-ozeti-kofn.png');
+        @include loveBoxHoverModel();
+    }
+    .love-box-two{
+        @include loveBoxImg('https://digitalreport.com.tr/wp-content/uploads/2022/11/Spotify-2022-Yilin-Ozeti-yayinlandi_05.jpg');
+        @include loveBoxHoverModel();
+    }
+    .love-box-three{
+        @include loveBoxImg('https://img.ulusal.com.tr/rcman/Cw510h510q95gm/storage/files/images/2022/11/30/screenshot-haberglobal-VzPw.png');
+        @include loveBoxHoverModel();
+    }
+    .love-box-four{
+        @include loveBoxImg('https://img.ulusal.com.tr/rcman/Cw510h508q95gm/storage/files/images/2022/11/30/screenshot-haberglobal-NxN3.png');
+        @include loveBoxHoverModel();
+    }
+}
